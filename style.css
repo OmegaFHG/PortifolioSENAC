@@ -50,7 +50,7 @@
 }
 
 .img {
-  border: solid 2px #013852;
+  border: solid 2px rgb(89, 202, 236);
   border-radius: 50%;
 }
 
@@ -110,15 +110,6 @@
 
 .menu a {
   transition: transform 0.3s;
-}
-
-.card img:hover {
-  transform: scale(1.1);
-  border: 2px solid rgb(89, 202, 236);
-}
-
-.card {
-  animation: appears 3s;
 }
 
 footer {
