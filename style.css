@@ -11,19 +11,20 @@
   background-color: transparent;
   border: solid 2px rgb(235, 235, 235);
   border-radius: 10px;
-  padding: 10px;
-  height: 50px;
+  padding: 5px;
+  height: 32px;
 }
 
 .menu {
   display: flex;
-  padding: 20px;
-  gap: 20px;
-  background-color: #0e76a8;
+  padding: 14px;
+  gap: 10px;
+  background-color: #0b2546;
   color: aliceblue;
-  font-size: 20px;
+  font-size: 16px;
   filter: drop-shadow(8px 12px 7px rgba(0, 0, 0, 0.308));
-  border-bottom: solid 2px #013852;
+  border-bottom: solid 2px #10a1e4;
+  position: relative;
 }
 
 .main {
@@ -65,6 +66,7 @@
 .experiencia {
   background-color: #d1d3d4;
   border-radius: 10px;
+  font-size: clamp(16px, 2vw, 20px);
 }
 
 .expcontent {
@@ -129,6 +131,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
   }
 
   .card {
@@ -143,3 +146,4 @@ footer {
     height: fit-content;
   }
 }
+
