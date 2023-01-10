@@ -51,6 +51,7 @@
 .img {
   border: solid 2px rgb(89, 202, 236);
   border-radius: 50%;
+  width: 200px;
 }
 
 .container {
@@ -125,6 +126,8 @@ footer {
     flex-wrap: nowrap;
     width: fit-content;
     height: fit-content;
+    align-items: center;
+    
   }
   .menu {
     display: flex;
@@ -134,12 +137,9 @@ footer {
     position: relative;
   }
 
-  .card {
-    display: block;
-    width: 100%;
-    height: fit-content;
+  img{
+    width: 200px;
   }
-
   .img, .inforcard {
     display: block;
     width: 100%;
