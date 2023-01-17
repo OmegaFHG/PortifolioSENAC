@@ -64,13 +64,13 @@
   border-radius: 10px;
 }
 
-.experiencia {
+.container-info {
   background-color: #d1d3d4;
   border-radius: 10px;
   font-size: clamp(16px, 2vw, 20px);
 }
 
-.expcontent {
+.content {
   padding: 20px;
   color: rgb(0, 0, 0);
   font-size: 19px;
@@ -100,7 +100,7 @@
   margin: 10px;
 }
 
-.expcontent ul {
+.content ul {
   padding-left: 20px;
 }
 
