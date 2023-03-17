@@ -7,20 +7,10 @@
 
 }
 
-.menu .btn {
-  text-decoration: none;
-  color: aliceblue;
-  background-color: transparent;
-  border: solid 2px rgb(235, 235, 235);
-  border-radius: 10px;
-  padding: 3px;
-  line-height: 20px;
-}
-
 .menu {
   display: flex;
-  padding: 14px;
-  gap: 10px;
+  padding: 14px 40px;
+  gap: 20px;
   background-color: rgba(58, 76, 240, 0.856);
   color: aliceblue;
 
@@ -28,10 +18,20 @@
   border-bottom: 1px solid rgb(176, 128, 255);
 }
 
+.menu .btn {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: transparent;
+  border: solid 2px rgb(235, 235, 235);
+  border-radius: 10px;
+  padding: 6px;
+  line-height: 22px;
+}
+
 .main {
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 45px;
   gap: 20px;
   filter: drop-shadow(8px 12px 7px rgba(0, 0, 0, 0.308));
   background-color:rgba(12, 0, 0, 0.151)
@@ -44,7 +44,7 @@
   padding: 20px;
   background-color: rgba(58, 76, 240, 0.856);
   width: 242px;
-  height: 450px;
+  height: 500px;
   gap: 20px;
   color: rgb(0, 0, 0);
   border-radius: 10px;
@@ -77,7 +77,18 @@
 .content {
   padding: 20px;
   color: rgb(0, 0, 0);
+  
 
+}
+
+.acad {
+  padding-bottom: 50px;
+}
+
+.habils {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
 }
 
 .titulo {
@@ -104,9 +115,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: #d1d3d4;
-  height: 50px;
-  width: 215px;
+  height: 100px;
+  width: 204px;
   margin-right: 2px;
   border-radius: 8px;
   border: 1px solid rgb(176, 128, 255);
@@ -169,14 +181,28 @@ footer {
     position: relative;
   }
 
-  img .inforcard {
-    width: 200px;
-  }
-  img .inforcard {
-    display: block;
+  .card {
     width: 100%;
-    height: fit-content;
-    
+  }
+
+  .inforcard {
+    width: 100%;
+  }
+
+  .infortecs {
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .habils {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
   }
 }
 
